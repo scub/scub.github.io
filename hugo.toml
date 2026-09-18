@@ -1,0 +1,25 @@
+baseURL = 'https://loves-to.dev/'
+locale = 'en-us'
+title = 'Penny Leal'
+theme = "gokarna"
+
+[params]
+  avatarAltText = "avatar"
+  avatarSize = "size-m"
+  avatarUrl = "images/current-profile.png"
+
+  description = "Software Developer, Reliability Engineer"
+  footer = "Penny Leal"
+
+  socialIcons = [
+    {name = "github", url = "https://github.com/scub"},
+    {name = "gitlab", url = "https://gitlab.com/penny-leal"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/rawrus"},
+    {name = "email", url = "mailto:penny@loves-to.dev"}
+  ]
+
+  metaKeywords = ["penny", "dev", "cloud engineer", "platform engineer", "site reliability engineer", "software developer", "developer"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
